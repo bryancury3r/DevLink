@@ -20,8 +20,8 @@
   --bg-url: url(../assets/bg-light.jpg);
   --stroke-color: rgba(0, 0, 0, 0.5);
   --surface-color: rgba(0, 0, 0, 0.05);
-  --surface-color-hover: rgba(255, 8, 255, 0.2);
-  --highlight-color: rgba(255, 8, 255, 0.2);
+  --surface-color-hover: rgb(169, 119, 130);
+  --highlight-color: rgb(169, 119, 130);
   --broken-color: red;
   --switch-bg-url: url(../assets/sun.svg);
 }
