@@ -17,8 +17,8 @@
 
 .light {
   --text-color: black;
-  --bg-url: url(../assets/bg-light.jpg);
-  --stroke-color: rgba(0, 0, 0, 0.5);
+  --bg-url: url(../assets/bg-rosa-light.jpg);
+  --stroke-color: rgba(255, 255, 255, 0.05);
   --surface-color: rgba(0, 0, 0, 0.05);
   --surface-color-hover: rgb(169, 119, 130);
   --highlight-color: rgb(169, 119, 130);
@@ -116,7 +116,7 @@ ul li a {
   padding: 16px 24px;
 
   background: var(--surface-color);
-  border: 1px solid var(--stroke-color);
+  border: 1px solid var(--highlight-color);
   border-radius: 8px;
 
   -webkit-backdrop-filter: blur(4px);
@@ -126,7 +126,8 @@ ul li a {
 
 ul li a:hover {
   background-color: var(--surface-color-hover);
-  border: 1.5px solid var(--text-color);
+  border: 1.5px solid var(--stroke-color);
+  border-radius: 8px;
 }
 
 #social-links {
